@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'digital';
+    src: url('/Digital dismay/Digital Dismay.otf');
+}
+
+body{  
+    display: flex;
+    justify-content: center;
+}
+
+#main-container {
+    width: 500px;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+    background-color: #1a1a80;
+   
+}
+
+.score {
+     width: 27%;
+     text-align: center;
+    
+}
+
+.score-font {
+    font-family: 'digital';
+    height: 120px;
+    border: 1px solid black;
+    font-size: 100px;
+    color: #ff4d6d;
+    background-color: #0a0a0a;
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+    border-radius: 5px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+     width: 30%;
+     height: 30px;
+     color: white;
+     border-radius:3px;
+     border: 1px solid white;
+     background-color: #1a1a80;
+}
+
+button:hover {
+     border: 1px solid red;
+}
+   
+.heading {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
